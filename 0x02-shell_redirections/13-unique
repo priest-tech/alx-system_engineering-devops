@@ -1,2 +1,2 @@
 #!/bin/bash
-tr   n < file_name | sort | uniq -c | wc -l
+sort | uniq -u
